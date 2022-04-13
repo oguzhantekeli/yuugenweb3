@@ -10,6 +10,9 @@
     "react-scripts": "5.0.0",
     "web3": "^1.7.3"
   },
+  "engines": {
+    "node": "16.13.2"
+  },
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
