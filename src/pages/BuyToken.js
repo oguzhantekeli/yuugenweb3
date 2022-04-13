@@ -15,11 +15,12 @@ const BuyToken = () => {
         <h1>Buy Some Tokens...</h1>
         <h3>Wallet Adress:{id}</h3>
         <h3>Balance: {userData.balance}</h3>
-        <button type="button">Buy Tokens</button>
-        <br />
-        <button type="button" onClick={onClick}>
-          Home
-        </button>
+        <div className="buttons">
+          <button type="button">Buy Tokens</button>
+          <button type="button" onClick={onClick}>
+            Home
+          </button>
+        </div>
       </div>
     </>
   );
